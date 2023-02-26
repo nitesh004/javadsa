@@ -25,9 +25,14 @@ public class BubbleSort {
                     array[j] = temp;
                 }}}
                 }
+                void msg()
+                {
+                    System.out.println("THis is prime number program");
+                }
     public static void main(String[] args) {
         BubbleSort bs = new BubbleSort();
         int limit;
+        bs.msg();
         System.out.println("Enter the limit of unsorted  array");
         Scanner sc =new Scanner(System.in);
         limit=sc.nextInt();
